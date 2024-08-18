@@ -1,10 +1,6 @@
 version: 0.0
 os: linux
 
-#tambahan
-files:
-  - source: /scripts/
-    destination: /opt/codedeploy-agent/deployment-root/
 hooks:
   ApplicationStop:
     - location: scripts/stop_container.sh
